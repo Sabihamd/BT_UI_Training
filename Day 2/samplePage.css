@@ -1,0 +1,79 @@
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    width: 100%;
+    padding: 50px;
+    font-size: larger;
+    text-align: center;
+    font-weight: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.flex1 {
+    
+    border: 2px solid black;
+    height: 60px;
+    padding: 10px;
+    background-color: aquamarine;
+    color: white;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.flex1 ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content:space-around; */
+    padding: 10px;
+    margin: 0;
+
+}
+
+.flex1 ul li {
+    width: 100px;
+}
+
+.flex1 ul li a{
+    text-decoration: none;
+}
+
+.flex2 {
+    display: flex;
+    border: 2px solid burlywood;
+    text-align: center;
+    
+}
+
+.flex2 > .sidebar {
+    flex:1;
+    background-color: lightcoral;
+    padding: 300px;
+    
+}
+
+.flex2 > .content {
+    flex:3;
+    background-color: lavenderblush;
+    padding: 300px;
+}
+
+@media screen and (max-width: 400px) {
+    .flex2 {
+        flex-direction: column;
+    }
+
+    .flex2 > .sidebar {
+        width: 100%;
+    }
+
+    .flex2 > .content {
+        width: 100%;;
+    }
+
+    .flex1 ul {
+        flex-direction: column;
+    }
+}

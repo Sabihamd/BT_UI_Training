@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" cont`~~ent="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <label for="code"
+        >Item Code
+        <input type="text" id="code" /> </label
+      ><br />
+      <label for="name"
+        >Item Name
+        <input type="text" id="name" /> </label
+      ><br />
+      <label for="cost"
+        >Item Cost
+        <input type="text" id="cost" /> </label
+      ><br />
+      <label for="quantity"
+        >Quantity
+        <input type="number" id="quantity" /> </label
+      ><br />
+    </div>
+    <button onclick="addItem()">Add Item</button><br /><br />
+    <table>
+      <tr>
+        <th>Item Code</th>
+        <th>Item Name</th>
+        <th>Item Cost</th>
+        <th>Quantity</th>
+        <th>Line Cost</th>
+      </tr>
+      <tr>
+        <td><textarea id="code1" rows="20"></textarea></td>
+        <td><textarea id="name1" rows="20"></textarea></td>
+        <td><textarea id="cost1" rows="20"></textarea></td>
+        <td><textarea id="quantity1" rows="20"></textarea></td>
+        <td><textarea id="linecost" rows="20"></textarea></td>
+      </tr>
+    </table>
+    <label for="subtotal"
+      >Subtotal
+      <input type="text" id="subtotal" /> </label
+    ><br />
+    <label for="tax"
+      >Sale Tax
+      <input type="text" id="tax" /> </label
+    ><br />
+    <label for="total"
+      >Total
+      <input type="text" id="total" /> </label
+    ><br />
+    <script src="itemBill.js"></script>
+  </body>
+</html>

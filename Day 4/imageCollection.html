@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./imageCollection.css">
+</head>
+<body>
+    <div class="1">
+        <img id="default" src="./img7.jpeg" alt="Default Image">
+    </div>
+    <div class="flex-container">
+        <img id="firstimg" onmouseover=goToDefault(this) onmouseout=backToNormal() src="img8.jpeg">
+        <img id="secondimg" onmouseover=goToDefault(this) onmouseout=backToNormal() src="img9.jpeg">
+        <img id="thirdimg" onmouseover=goToDefault(this) onmouseout=backToNormal() src="img10.jpeg">
+        <img id="fourthimg" onmouseover=goToDefault(this) onmouseout=backToNormal() src="img11.jpeg">
+    </div>
+    <script src="imageCollection.js"></script>
+</body>
+</html>

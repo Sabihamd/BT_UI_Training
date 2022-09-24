@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="expenseTracker.css">
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="flexitem1">
+                <select id="dropdown">
+                    <option></option>
+                    <option id="opt1">+1</option>
+                    <option id="opt2">-1</option>
+                </select>
+            </div>
+            <div class="flexitem2">
+                <input id="inputtext" type="text" placeholder="Enter your Income/Expense">
+            </div>
+            <div class="flexitem3">
+                <input id="inputamount" type="text" placeholder="Enter Amount">
+            </div>
+            <div class="flexitem4">
+                <button id="btn" onclick=addItem()>Add</button>
+            </div>
+        </div>
+    </header>
+    <main class="flex-container2">
+        <div id="flex1">
+            <h3>ALL INCOMES</h3>
+            <table id="tableId" align="center">
+                <thead><tr>
+                    <th>Activity</th>
+                    <th>Amount</th>
+                </tr></thead>
+            </table>
+        </div>
+        <div id="flex2">
+            <div class="innerflex">
+                <div id="inf1"><label for ="innerflex1" id="lab1">INCOME</label><br>
+                <input id="innerflex1" value='0' type="text"></div>
+                <div id="inf2"><label for ="innerflex2" id="lab2">MONEY LEFT</label><br>
+                <input id="innerflex2" type="text" value="0"></div>
+                <div id="inf3"><label for ="innerflex3" id="lab3">EXPENSE</label><br>
+                <input id="innerflex3" type="text" value="0"></div>
+            </div>
+        </div>
+        <div id="flex3">
+            <h3>ALL EXPENSES</h3>
+            <table id="tableId2" align="center">
+                <thead><tr>
+                    <th>Activity</th>
+                    <th>Amount</th>
+                </tr></thead>
+            </table>
+        </div>
+    </main>
+    <script src="expenseTracker.js"></script>
+</body>
+</html>
