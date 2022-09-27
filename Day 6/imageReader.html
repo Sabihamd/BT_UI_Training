@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" id="theImageFile" onchange="onLoadImageFile()" multiple><br>
+    <div id="container">
+        <!-- <img id="img" src="img7.jpeg" alt="Default Image"> -->
+    </div>
+    <script>
+        function onLoadImageFile() {
+            const fileElement = document.getElementById('theImageFile')
+            // console.log(fileElement.files)
+            for (let i=0; i<fileElement.files.length;i++) {
+                // console.log(imgfile)
+                imgfile = fileElement.files[i]
+                const reader = new FileReader()
+                reader.onload = (event) => {
+                    let ref = document.getElementById('container')
+                    let imgtag = document.createElement('img')
+                    imgtag.src = event.target.result
+                    ref.appendChild(imgtag)
+                }
+
+                reader.onerror = (event) => {
+                    console.log('error while loading text file')
+                }
+
+                reader.readAsDataURL(fileElement.files[i])
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

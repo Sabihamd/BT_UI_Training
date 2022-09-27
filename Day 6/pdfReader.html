@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="file" id="thePdfFile" onchange="onLoadPdfFile()">
+    <iframe width="800px" height="800px" id="pdfViewer"></iframe>
+    <script>
+        function onLoadPdfFile() {
+            const fileElement = document.getElementById('thePdfFile')
+
+            const reader = new FileReader()
+            reader.onload = (event) => {
+                let pdfRef = document.getElementById('pdfViewer')
+                pdfRef.src = event.target.result
+            }
+
+            reader.onerror = (event) => {
+                console.log('error while loading text file')
+            }
+
+            reader.readAsDataURL(fileElement.files[0])
+        }
+    </script>
+</body>
+
+</html>
