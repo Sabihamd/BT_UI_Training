@@ -1,0 +1,35 @@
+.home-container {
+    background-image: url('https://m.economictimes.com/thumb/msid-91354482,width-1200,height-900,resizemode-4,imgsize-497940/bank-finance-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 108px);
+    overflow: hidden;
+}
+
+.home-h2{
+    color: #3566a6;
+    margin-top: 30px;
+}
+
+.card {
+    max-width: 22rem;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    max-height: 15rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #3566a6 !important; 
+}
+
+h6, p {
+    color: white;
+}
+
+.card-text {
+    color: black;
+}

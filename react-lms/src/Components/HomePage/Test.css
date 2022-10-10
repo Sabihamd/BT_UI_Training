@@ -1,0 +1,79 @@
+.home-container {
+    background-image: url('https://m.economictimes.com/thumb/msid-91354482,width-1200,height-900,resizemode-4,imgsize-497940/bank-finance-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 108px);
+    margin: 0;
+    overflow: hidden;
+}
+
+h2 {
+    color: #3566a6;
+    margin-top: 30px;
+}
+
+.card {
+    max-width: 22rem;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px;
+    border-radius: 0.375rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    margin-top: calc(-.5 * var(0.5rem));
+    margin-bottom: 0;
+    margin-bottom: 2px;
+    opacity: 1;
+    color: #6c757d !important;
+}
+
+h6, p {
+    color: white;
+}
+
+.card-text {
+    color: black;
+}
+
+.card-text:last-child {
+    margin-bottom: 0
+}
+
+.card-link+.card-link {
+    margin-left: 1rem;
+}
+
+.home-foot {
+    text-align: center;
+    font-size: large;
+    opacity: 1;
+    color: #6c757d !important;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: #3566a6 !important; 
+    
+}
+
+.home-class {
+    width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 5px;
+}

@@ -1,0 +1,46 @@
+.applyloans-card {
+    border: 1px solid #1e5194;
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    background-color: #1e5194;
+    height: auto;
+    box-shadow: 6px 4px 5px 0px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.applyloans-h3 {
+    color: white;
+    margin-top: 5px;
+}
+
+.applyloans-p {
+    color: #1e5194;
+    font-weight: bold;
+}
+
+.applyloans-label {
+    color: black;
+    font-weight: lighter;
+}
+
+.applyloans-ul {
+    background-color: white;
+    list-style-type: circle;
+    text-align: left;
+}
+
+.applyloans-p2 {
+    margin-top: 2px;
+    color: black;
+}
+
+.applyloans-p3 {
+    color: white;
+    background-color: #1e5194;
+    max-width: 45%;
+    padding: 10px;
+    margin: auto;
+}

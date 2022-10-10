@@ -1,0 +1,36 @@
+.signup-container {
+    width: 30%;
+    border: 2px solid #3566a6;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+label {
+    color: #3566a6;
+    font-weight: bold;
+}
+
+button {
+    width: 150px;
+}
+
+.outlet-container {
+    background-image: url('https://m.economictimes.com/thumb/msid-91354482,width-1200,height-900,resizemode-4,imgsize-497940/bank-finance-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-control {
+    border: 1px solid #3566a6;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.gender {
+    color: #3566a6;
+    font-size: medium;
+}

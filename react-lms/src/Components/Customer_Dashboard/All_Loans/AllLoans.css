@@ -1,0 +1,138 @@
+.loans-card {
+    border: 1px solid #1e5194;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    background-color: #1e5194;
+    height: 320px;
+    box-shadow: 6px 4px 5px 0px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.loans-flex {
+    display: flex;
+    margin: 0 auto;
+}
+
+.loans-title {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bank-img {
+    height: 130px;
+}
+
+.loans-status {
+    border: 1px solid white;
+    background-color: white;
+    color: #1e5194;
+    margin-top:auto;
+}
+
+.loans-flex-item {
+    justify-content: space-between;
+    text-align: left;
+    padding: 30px;
+}
+
+.loans-button {
+    font-weight: bold;
+    width: 25%;
+    margin-left: 250px;
+    color:#1e5194
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.loans-h4 {
+    color: #1e5194;
+    font-size: xx-large;
+    margin-top: 100px;
+}
+
+.apps-img {
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    float: right;
+}
+
+.apps-card {
+    border: 1px solid #1e5194;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: white;
+    background-color: #1e5194;
+    height: auto;
+    box-shadow: 6px 4px 5px 0px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.apps-img2 {
+    height: 130px;
+    width: 130px;
+}
+
+.apps-flex {
+    display: flex;
+    flex-direction: column;
+    /* border: 4px solid red; */
+    justify-content: space-between;
+}
+
+.apps-flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 4px solid green; */
+}
+
+td {
+    text-align: left;
+}
+
+.apps-flexitem {
+    margin: 4px 0;
+}
+
+#apps-div {
+    border-left: 2px solid white;
+    /* border-spacing: 10px; */
+    /* padding-left: 20px; */
+}
+
+#table2{
+    margin-left: 35px;
+}
+
+.app-flex3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.apps-approve {
+    background-color: #5DA848;
+    color: white;
+    font-weight: bold;
+}
+
+.apps-reject {
+    background-color: #DC4245;
+    color: white;
+    font-weight: bold;
+}
+
+.apps-pending {
+    background-color: #F9C133;
+    color: white;
+    font-weight: bold;
+}
